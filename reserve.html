@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="js/jquery.js"></script>
+  <script>
+  $(function(){
+    $(".menuclass").hover(function(){
+      if($(".menuclass").hasClass("on2")){
+        $(this).removeClass("on2");
+      }
+      else{
+        $(".menuclass").removeClass("on2");
+        $(this).addClass("on2");
+      }
+    });
+    $(".menu3").on("click",function(){
+      if($(this).hasClass("on")){
+        $(this).removeClass("on");
+      }
+    else{
+      $(".menu3").removeClass("on");
+      $(this).addClass("on");
+    }
+  });
+});
+  </script>
+  <script>
+  $(function(){
+    $(".gel3").on("click",function(){
+      if($(this).hasClass("on")){
+        $(this).removeClass("on");
+      }
+      else{
+        $(".gel3").removeClass("on");
+        $(this).addClass("on");
+      }
+    });
+    $(".alt3").on("click",function(){
+      if($(this).hasClass("on")){
+        $(this).removeClass("on");
+      }
+      else{
+        $(".alt3").removeClass("on");
+        $(this).addClass("on");
+      }
+    });
+    $(".foot3").on("click",function(){
+      if($(this).hasClass("on")){
+        $(this).removeClass("on");
+      }
+      else{
+        $(".foot3").removeClass("on");
+        $(this).addClass("on");
+      }
+    })
+  });
+  </script>
+  <meta charset="UTF-8">
+  <title>NAIL CRONE</title>
+  <link rel="stylesheet" type="text/css" href="css/reserve.css">
+</head>
+<body>
+  <div id="header">
+    <div id="logo">
+      <img src="img/index/logo.png" alt="アート">
+    </div><!-- logo -->
+    <div id="contact">
+      <p>070-6979-8217</p>
+      <p>info@nail-crnoe.com</p>
+    </div><!-- contact -->
+  </div><!--header -->
+  <div id="menu">
+    <div id="indexmenu">
+      <div class="menuclass">
+    <ul>
+      <li>HOME</li>
+    </ul>
+  </div><!-- menuclass -->
+  <div class="menuclass">
+    <ul>
+      <li>CONCEPT</li>
+    </ul>
+  </div><!-- menuclass -->
+  <div class="menuclass">
+    <ul>
+      <li>MENU</li>
+    </ul>
+  </div><!-- menuclass -->
+  <div class="menuclass">
+    <ul>
+      <li>NAIL DESIGN</li>
+      </ul>
+    </div><!-- menuclass -->
+    <div class="menuclass">
+      <ul>
+      <li>ACCESS</li>
+    </ul>
+  </div><!-- menuclass -->
+  <div class="menuclass">
+    <ul>
+      <li>RESERVE</li>
+    </ul>
+  </div><!-- menuclass -->
+</div><!-- indexmenu -->
+  </div><!-- menu -->
+  <div id="white">
+    <img src="img/index/line.png" alt="ライン５">
+    <div id="illusttop2">
+    <img src="img/index/illust1_top.png" alt="冠５">
+  </div><!-- illusttop2 -->
+  <div id="selcet">
+    <img src="img/index/course_select.png">
+  </div><!-- selcet -->
+  <div id="care">
+    <div id="carecourse">
+      <p>ケア＆コース</P>
+      </div><!-- carecourse -->
+      <div id="carecourse2">
+        <div class="menu3">
+          <ul>
+          <li>ジェルのみ</li>
+          <li>30分</li>
+          <li>2000円</li>
+        </ul>
+        </div><!-- menu3 -->
+        <div class="menu3">
+          <ul>
+          <li>スカルプのみ</li>
+          <li>60分</li>
+          <li>4000円</li>
+        </ul>
+        </div><!-- menu3 -->
+        <div class="menu3">
+          <ul>
+          <li>スカルプ付け替えオフ</li>
+          <li>60分</li>
+          <li>3000円</li>
+        </ul>
+        </div><!-- menu3 -->
+        <div class="menu3">
+          <ul>
+          <li>ジェル付け替えオフ他店</li>
+          <li>30分</li>
+          <li>1500円</li>
+        </ul>
+        </div><!-- menu3 -->
+        <div class="menu3">
+          <ul>
+          <li>ジェル付け替えオフ当店</li>
+          <li>30分</li>
+          <li>1000円</li>
+        </ul>
+        </div><!-- menu3 -->
+        <div class="menu3">
+          <ul>
+          <li>ウォータケア</li>
+          <li>0分</li>
+          <li>1000円</li>
+        </ul>
+        </div><!-- menu3 -->
+      </div><!-- carecourse2 -->
+  </div><!-- care -->
+  <div id="gel">
+    <div id="gel2">
+      <p>ジェル</p>
+      <div class="gel3">
+        <ul>
+          <li>ワンカラー(ラメ・グラ)</li>
+          <li>60分</li>
+          <li>4500円</li>
+        </ul>
+      </div><!-- gel3 -->
+        <div class="gel3">
+          <ul>
+            <li>フレンチ（ラメ・ライン・カラグラ)</li>
+            <li>90分</li>
+            <li>5500円</li>
+          </ul>
+        </div><!-- gel3 -->
+      </div><!-- gel2 -->
+    </div><!-- gel -->
+    <div id="alt">
+      <div id="alt2">
+        <p>アート</p>
+        <div class="alt3">
+          <ul>
+            <li>2本アート</li>
+            <li>90分</li>
+            <li>5980円</li>
+          </ul>
+          </div><!-- alt3 -->
+          <div class="alt3">
+            <ul>
+              <li>4本アート</li>
+              <li>90分</li>
+              <li>6980円</li>
+            </ul>
+            </div><!-- alt3 -->
+            <div class="alt3">
+              <ul>
+                <li>アート(多め多め)</li>
+                <li>120分</li>
+                <li>7980円</li>
+              </ul>
+              </div><!-- alt3 -->
+            </div><!-- alt2 -->
+          </div><!-- alt -->
+          <div id="foot">
+            <div id="foot2">
+              <p>フット</p>
+            <div class="foot3">
+              <ul>
+                <li>シンプルコース</li>
+                <li>60分</li>
+                <li>5980円</li>
+              </ul>
+            </div><!-- foot3 -->
+            <div class="foot3">
+              <ul>
+                <li>親指アート</li>
+                <li>90分</li>
+                <li>6980円</li>
+              </ul>
+        </div><!-- foot3 -->
+            <div class="foot3">
+              <ul>
+                <li>4本アート</li>
+                <li>90分</li>
+                <li>7980円</li>
+              </ul>
+            </div><!-- foot3 -->
+          </div><!-- foot2 -->
+        </div><!-- foot -->
+    <img src="img/index/line.png" alt="ライン３">
+    <div id="menu2">
+      <div class="gallery">
+        <img src="img/index/about1.png" alt="その他">
+      </div><!-- その他 -->
+      <div class="gallery">
+        <img src="img/index/about2.png" alt="その他２">
+      </div><!-- その他２ -->
+      <div class="gallery">
+        <img src="img/index/about3.png" alt="その他３">
+      </div><!-- その他３ -->
+    </div><!-- menu2 -->
+    <img src="img/index/line.png" alt="ライン４">
+    <div id="footer">
+      <img src="img/index/bg_footer.png" alt="ラスト">
+    </div><!-- footer -->
+  </div><!-- white -->
+</body>
